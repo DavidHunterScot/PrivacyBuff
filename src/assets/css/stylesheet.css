@@ -1,0 +1,40 @@
+:root
+{
+    --color-primary: #00cc99;
+    --color-primary-faint: #e6fff9;
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+}
+
+html,
+body
+{
+    background-color: var( --color-primary-faint );
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    color: var( --color-primary );
+}
+
+.container
+{
+    max-width: min( 100% - 2rem, 75rem );
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.standalone
+{
+    margin: 0 auto;
+    padding: 3rem 0;
+    max-width: 600px;
+}

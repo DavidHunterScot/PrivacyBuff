@@ -1,0 +1,41 @@
+.comingsoon
+{
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.comingsoon .title
+{
+    font-size: 4rem;
+    font-weight: bold;
+    color: var( --color-primary );
+}
+
+.comingsoon .tagline
+{
+    font-weight: 300;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+.comingsoon .bubble
+{
+    background-color: var( --color-primary );
+    color: white;
+    border-radius: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+    width: max-content;
+    padding: 1rem 3rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.comingsoon .footnote,
+.comingsoon .footnote a
+{
+    font-size: 0.7rem;
+    color: #888;
+}
