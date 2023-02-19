@@ -1,8 +1,11 @@
----
-title: Coming Soon
-layout: "base.njk"
-stylesheet: /assets/css/comingsoon.css
----
+<?php
+
+$page_title = "Coming Soon";
+$stylesheet = "/assets/css/comingsoon.css";
+
+$page_content = function()
+{
+?>
 
 <div class="comingsoon">
     <div class="title">Privacy Buff</div>
@@ -10,3 +13,8 @@ stylesheet: /assets/css/comingsoon.css
     <div class="bubble">Coming Soon</div>
     <div class="footnote">Site by <a href="https://davidhunter.scot" target="_blank">David Hunter</a>. Source code on <a href="https://github.com/DavidHunterScot/PrivacyBuff" target="_blank">GitHub</a>.</div>
 </div>
+
+<?php
+};
+
+include __DIR__ . DIRECTORY_SEPARATOR . "_includes" . DIRECTORY_SEPARATOR . "base.php";
